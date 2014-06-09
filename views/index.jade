@@ -1,0 +1,29 @@
+extends layout
+
+block content
+	div.row
+		p <br>
+
+		center
+			h1 SCORE: <span id="score"> 0 </span>
+
+		div.row
+			div
+				p some content
+
+		div.row
+			center
+				h2 TYPE THIS SHIT FAST
+				h2#target_input type 'start' to start
+
+			div.small-4.large-centered.columns
+				input(type="text").enter#attack_input
+
+		p <br>
+		p <br>
+		p <br>
+		
+		h3 Times
+		hr
+		p#times
+
